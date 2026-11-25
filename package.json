@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "serve": "node server.js",
-    "build": "echo 'Static build ready'"
+    "serve": "node server.js"
   },
   "keywords": [
     "varnith-global",
@@ -19,4 +18,3 @@
   "author": "Varnith Global",
   "license": "ISC"
 }
-

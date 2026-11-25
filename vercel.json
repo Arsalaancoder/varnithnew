@@ -1,25 +1,14 @@
 {
-  "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "outputDirectory": ".",
   "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     { "source": "/solutions", "destination": "/services.html", "permanent": true },
     { "source": "/industries", "destination": "/services.html", "permanent": true },
     { "source": "/training", "destination": "/courses.html", "permanent": true },
     { "source": "/solutions/(.*)", "destination": "/services.html", "permanent": true }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "status": 404,
-      "dest": "/404.html"
-    }
   ],
   "headers": [
     {
