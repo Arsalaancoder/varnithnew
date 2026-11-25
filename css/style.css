@@ -2183,6 +2183,7 @@ footer .container > div:first-child > div,
     justify-content: center;
     align-items: center;
     gap: 0.65rem;
+    margin-top: 0.85rem;
     padding-top: 1rem;
     border-top: 1px solid #e2e8f0;
 }
