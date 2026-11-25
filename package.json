@@ -1,0 +1,22 @@
+{
+  "name": "varnith-global",
+  "version": "1.0.0",
+  "description": "Varnith Global Corporate Website - HR Consulting, Talent Solutions, Training & Technology",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "build": "echo 'Static build ready'"
+  },
+  "keywords": [
+    "varnith-global",
+    "hr-consulting",
+    "talent-solutions",
+    "corporate-training",
+    "technology-transformation"
+  ],
+  "author": "Varnith Global",
+  "license": "ISC"
+}
+
