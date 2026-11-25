@@ -1,0 +1,150 @@
+[build]
+  publish = "."
+
+[build.processing.html]
+  pretty_urls = true
+
+# Clean URL routing for primary pages
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses"
+  to = "/courses.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting/talent-acquisition"
+  to = "/services/hr-consulting/talent-acquisition/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting/recruitment-process-outsourcing"
+  to = "/services/hr-consulting/recruitment-process-outsourcing/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting/executive-search-hiring"
+  to = "/services/hr-consulting/executive-search-hiring/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting/dei-hiring"
+  to = "/services/hr-consulting/dei-hiring/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/hr-consulting/talent-intelligence"
+  to = "/services/hr-consulting/talent-intelligence/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services/technology-transformation"
+  to = "/services/technology-transformation/index.html"
+  status = 200
+
+# Course routes
+[[redirects]]
+  from = "/course-devops"
+  to = "/course-devops.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-sap-basis"
+  to = "/course-sap-basis.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-aws"
+  to = "/course-aws.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-data-science"
+  to = "/course-data-science.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-python"
+  to = "/course-python.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-salesforce"
+  to = "/course-salesforce.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-sap-grc"
+  to = "/course-sap-grc.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-snowflake"
+  to = "/course-snowflake.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-azure-data-factory"
+  to = "/course-azure-data-factory.html"
+  status = 200
+
+[[redirects]]
+  from = "/course-software-testing"
+  to = "/course-software-testing.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+# Legacy URL redirects
+[[redirects]]
+  from = "/solutions"
+  to = "/services.html"
+  status = 301
+
+[[redirects]]
+  from = "/solutions/*"
+  to = "/services.html"
+  status = 301
+
+[[redirects]]
+  from = "/industries"
+  to = "/services.html"
+  status = 301
+
+[[redirects]]
+  from = "/training"
+  to = "/courses.html"
+  status = 301
+
+# SPA & Catch-all Fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

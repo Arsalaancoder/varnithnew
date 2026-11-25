@@ -40,6 +40,7 @@ const REDIRECTS = {
     '/training': '/courses.html',
     '/training.html': '/courses.html',
     '/services': '/services.html',
+    '/services/hr-consulting': '/services.html',
     '/courses': '/courses.html',
     '/about': '/about.html',
     '/contact': '/contact.html',

@@ -1,0 +1,37 @@
+# Netlify Redirects & Rewrites for Varnith Global
+# Specific clean routes with 200 rewrite
+/about                                              /about.html                                              200
+/contact                                            /contact.html                                            200
+/courses                                            /courses.html                                            200
+/services                                           /services.html                                           200
+/services/hr-consulting                             /services.html                                           200
+/services/hr-consulting/talent-acquisition          /services/hr-consulting/talent-acquisition/index.html     200
+/services/hr-consulting/recruitment-process-outsourcing /services/hr-consulting/recruitment-process-outsourcing/index.html 200
+/services/hr-consulting/executive-search-hiring     /services/hr-consulting/executive-search-hiring/index.html 200
+/services/hr-consulting/dei-hiring                  /services/hr-consulting/dei-hiring/index.html            200
+/services/hr-consulting/talent-intelligence         /services/hr-consulting/talent-intelligence/index.html   200
+/services/technology-transformation                 /services/technology-transformation/index.html           200
+
+# Course routes
+/course-devops                                      /course-devops.html                                      200
+/course-sap-basis                                   /course-sap-basis.html                                   200
+/course-aws                                         /course-aws.html                                         200
+/course-data-science                                /course-data-science.html                                200
+/course-python                                      /course-python.html                                      200
+/course-salesforce                                  /course-salesforce.html                                  200
+/course-sap-grc                                     /course-sap-grc.html                                     200
+/course-snowflake                                   /course-snowflake.html                                   200
+/course-azure-data-factory                          /course-azure-data-factory.html                          200
+/course-software-testing                            /course-software-testing.html                            200
+/privacy-policy                                     /privacy-policy.html                                     200
+/terms                                              /terms.html                                              200
+
+# Legacy & Alias redirects
+/solutions                                          /services.html                                           301
+/solutions/*                                        /services.html                                           301
+/industries                                         /services.html                                           301
+/training                                           /courses.html                                            301
+
+# SPA & Catch-all fallback
+/*                                                  /index.html                                              200
+
